@@ -1,0 +1,149 @@
+.home{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    margin-top: -100px;
+    margin:  auto;
+    width: 500px;
+    height: 200px;
+    background-image:url(../../Components/Assets/Images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.name{
+    margin-top: 10px;
+    color: red;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.icon{
+    width: 20px;
+}
+
+/* SEARCH BAR */
+::placeholder{
+    text-align: center;
+    color:rgba(68, 68, 68, 0.57);
+    text-transform: capitalize;
+  }
+
+.search{
+    margin-top: 30px!important;
+    width: 400px!important;
+    height: 40px!important;
+    color:white!important;;
+    background: rgba(225, 225, 225, 0.558) !important;
+}
+
+.search-button{
+    width: 100px!important;
+    height: 40px!important;
+    color:rgba(225, 225, 225, 0.558) !important;
+    background: rgba(94, 86, 86, 0.788) !important;
+}
+.search-button:hover{
+    color:rgba(31, 31, 31, 0.558)!important;
+    background: rgba(255, 0, 0, 0.788) !important;
+
+}
+
+/* FILTER */
+.filter{
+    font-size: 12px;
+    margin-top: 30px;
+    background-color: transparent;
+    color:red;
+    font-family: 'Press Start 2P', cursive;
+}
+
+select{
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border-color: transparent;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*PAGES*/
+.pagination{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.prev{
+    padding: 10px 20px;
+    font-size: 10px;
+    box-sizing:border-box;
+    transition:.5s;
+    margin-top: 10px;
+    border-radius: 25px 0px 25px 0px;
+    color:rgba(225, 225, 225, 0.558) ;
+    background: rgba(94, 86, 86, 0.788) ;
+    box-shadow: -3px -4px 5px 4px rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.next{
+    padding: 10px 20px;
+    font-size: 10px;
+    box-sizing:border-box;
+    transition:.5s;
+    margin-top: 10px;
+    border-radius: 0px 25px 0px 25px;
+    color:rgba(225, 225, 225, 0.558) ;
+    background: rgba(94, 86, 86, 0.788) ;
+    box-shadow: 3px -4px 5px 4px rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    font-family: 'Press Start 2P', cursive;
+}
+.prev:hover{
+    color:rgba(255, 0, 0, 0.558) ;
+    background: rgba(18, 18, 18, 0.788) ;
+}
+
+.next:hover{
+    color:rgba(255, 0, 0, 0.558) ;
+    background: rgba(18, 18, 18, 0.788) ;
+}
+
+.page-number{
+    padding: 10px 20px;
+    font-size: 10px;
+    box-sizing:border-box;
+    transition:.5s;
+    margin-top: 10px;
+    border-radius: 0px 25px 0px 25px;
+    color:rgba(225, 225, 225, 0.558) ;
+    background: rgba(94, 86, 86, 0.788) ;
+    font-family: 'Press Start 2P', cursive;
+
+}
+

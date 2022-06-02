@@ -1,0 +1,265 @@
+* {
+    text-align: center;
+    color: white;
+  }
+
+  /* POKEMON CARD */
+  .container{
+    display: inline-table;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .card{
+    background-image:url(../Assets/Images/Pokeball.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transform: scale(1);
+  transition:0.3s ease-in-out;
+  }
+  
+  .card:hover{
+    transform: scale(1.1);
+
+  }
+
+
+  .pokemon-name{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    text-align: end;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+  }
+
+  .pokemon-id{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+  }
+
+  .image{
+    margin-top: -220px;
+    margin-left: -220px;
+    width: 200px;
+  }
+  .stats{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 20px;
+    font-family: 'Press Start 2P', cursive;
+    
+  }
+  .type{
+    position: relative;
+    text-align: end;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: capitalize;
+
+  }
+  .type1{
+    position: relative;
+    text-align: end;
+    margin-right: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: -5px;
+
+  }
+  .height{
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+  .weight{
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+
+  /* POKEMON DETAIL */
+   .card-detail{
+    background-image:url(../Assets/Images/Pokeball.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 5px;
+    margin-top: 350px;
+    
+  }
+  .name-detail{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+  }
+
+  .image-detail{
+    margin-top: -200px;
+    width: 400px;
+    transform: scaleX(-1);
+  }
+  .back-img{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: -10px;
+    width: 150px;
+    transform: scaleX(-1);
+  }
+  .id{
+    font-size: 20px;
+  }
+
+  .abi{
+    position: relative;
+    text-align: right;
+    font-size: 10px;
+    margin-top: -70px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-right: 15px;
+  }
+
+  .abi1{
+    position: relative;
+    text-align: right;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color:black;
+  }
+
+  .abi2{
+    position: relative;
+    text-align: right;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-right: 10px;
+    color:black;
+  }
+  .types{
+    padding: 20px;
+    margin-top: -105px;
+  }
+
+  .typesT{
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+
+  .types1{
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: -5px;
+    
+  }
+  .types2{
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .statsd{
+    position: static;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .statsT{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 10px; 
+  }
+
+  .stats1, .stats2, .stats3, .stats4, .stats5, .stats6{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .otherInfo{
+    margin-top:230px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px 25px 25px 25px;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.563), 0 6px 20px 0 rgba(203, 203, 203, 0.19);
+
+  }
+  .genera{
+    padding-top: 20px;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.571); 
+  }
+  .description{
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .contenedor{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .bar, .bar1, .bar2, .bar3, .bar4, .bar5{
+    margin-top: -20px;
+    margin-left: 100px;
+    width: 150%;
+    height: 8px;
+    background-color: #e3e3e38d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  }
+  .sta, .sta1, .sta2, .sta3, .sta4, .sta5{
+    font-size: 10px;
+    margin-left: -30px;
+  }
+
+  .progress{
+    width: var(--w);
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.553);
+    border-radius: 10px;
+    font-size: 8px;
+    color:black;
+  }
+
+  .footer{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+  }
+
+
+  
